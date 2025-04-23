@@ -1,0 +1,11 @@
+<app-header *ngIf="shouldDisplayHeader()">
+</app-header>
+<div [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
+<app-footer *ngIf="shouldDisplayHeader()"></app-footer>
+
+<!--<div class="field">-->
+<!--  <input [(ngModel)]="amount"  id="amount" placeholder="Enter amount"/>-->
+<!--  <button (click)="fundWallet()">Fund Wallet</button>-->
+<!--</div>-->

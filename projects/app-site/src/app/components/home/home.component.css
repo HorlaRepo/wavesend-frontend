@@ -1,0 +1,65 @@
+/* Carousel navigation styling */
+::ng-deep .single-slideshow .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+  
+  ::ng-deep .single-slideshow .owl-nav [class*="owl-"] {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    opacity: 0.7;
+  }
+  
+  ::ng-deep .single-slideshow .owl-nav [class*="owl-"]:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+  }
+  
+  ::ng-deep .single-slideshow .owl-nav .owl-prev {
+    left: 15px;
+  }
+  
+  ::ng-deep .single-slideshow .owl-nav .owl-next {
+    right: 15px;
+  }
+  
+  /* Fix for the blank space at the top */
+  ::ng-deep .single-slideshow {
+    margin-top: 0;
+    position: relative;
+  }
+  
+  ::ng-deep .hero-wrap {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  ::ng-deep .fullscreen-with-header {
+    min-height: 100vh;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  /* Ensure images fit properly */
+  ::ng-deep .hero-bg {
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

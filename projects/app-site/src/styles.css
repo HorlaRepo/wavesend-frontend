@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/css/stylesheet.css";
+@import "assets/fonts.googleapis.com/cssab2a.css";
+
+.daterangepicker {
+  display: flex !important;
+}
+
+.calendar.left {
+  margin-right: 0 !important;
+}
+
+.btn-primary:disabled {
+  background-color: green;
+  border-color: green;
+}
+
+body {
+  padding-top: 76px; /* Match your header height */
+}
+
+/* For pages with full-height heroes, adjust accordingly */
+.hero-wrap {
+  margin-top: -76px; /* Negative header height to maintain full-height appearance */
+}
+
