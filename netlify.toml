@@ -1,0 +1,3 @@
+[build]
+  command = "npm install --legacy-peer-deps && npm run build --configuration production --project=app-site"
+  publish = "dist/app-site"
